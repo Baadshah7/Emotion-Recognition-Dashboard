@@ -1,4 +1,50 @@
-# .gitignore
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# -----------------------
+# Virtual Environment
+# -----------------------
 venv/
+light_env/
+env/
+
+# -----------------------
+# Jupyter Notebooks
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Logs & Output Files
+# -----------------------
+*.log
 *.csv
 *.enc
+
+# -----------------------
+# Model / Checkpoints
+# -----------------------
+*.h5
+*.ckpt
+
+# -----------------------
+# OS / IDE specific files
+# -----------------------
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# -----------------------
+# Others
+# -----------------------
+*.zip
+*.tar.gz
+*.egg-info/
