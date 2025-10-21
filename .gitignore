@@ -1,3 +1,4 @@
-light_env/ 
-__pycache__/ 
-*.pyc 
+# .gitignore
+venv/
+*.csv
+*.enc
